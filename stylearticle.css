@@ -1,0 +1,153 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #6266CF;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.logo {
+    width: 50px;
+    margin-top: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+
+article {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+article:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #6266CF;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+article img {
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.other {
+    margin-right: 100px;
+}
+
+.imgarticle{
+    float: right !important;
+}
+
+button {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #725AC1;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #6266CF;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #6266CF;
+    zoom: 50%;
+    }
+
+    :focus {
+        outline: 2px solid #007bff;
+        outline-offset: 2px;
+    }
+
+    button:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #6266CF;
+    }
+
+    button:active {
+    transform: scale(0.9);
+    }
+    
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    tfoot {
+        font-weight: bold;
+    }
+    .Arboressance{
+        position: relative;
+        margin-top: 190px;
+        margin-left: 350px;
+    }
